@@ -1,0 +1,43 @@
+@charset 'utf-8';
+
+body{
+	background-image: url('./img/bg-texture-white.jpg');
+}
+
+h1{
+	color: #8ab29f;
+	text-shadow: 1px 1px 2px #fff;
+}
+.hero-unit{
+	background-image: url('./img/hero-unit.jpg');
+	background-position: left center;
+	background-repeat: no-repeat;
+	text-shadow: 0 0 7px #fff;
+	-webkit-box-shadow: 1px 1px 5px #fff, 1px 1px 5px rgba(0, 0, 0, 0.4) inset;
+}
+.projects{
+	clear: both;
+	margin: 2em 0;
+	min-height: 80px;
+}
+.projects .span4{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.projects .span4 div{
+	background: #fff;
+	border-radius: 3px;
+	padding: 10px;	
+}
+.projects h3{
+	color: #252e34;
+	text-shadow: 1px 1px 2px #fff;
+}
+.loading{
+	background-image: url('./img/ajax-loader.gif');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+footer .pull-right{
+	text-align: right;
+}
